@@ -34,8 +34,11 @@ namespace introConcept
             //{
             //    l = ol;
             //}
-          
 
+            //int intYas = 0;
+            object productDetailResponse = null;
+            object addNewProductRequest = null;
+            var age =41;
         }
 
         private static List<int[]> cells = new List<int[]>();
