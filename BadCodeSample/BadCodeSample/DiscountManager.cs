@@ -34,23 +34,24 @@ namespace BadCodeSample
 
 
 
-        public decimal ApplyDiscount(decimal price, CustomerStatus customerStatus, int timeOfHavingAccountInYears)
+        public decimal ApplyDiscount(decimal orderedProductPrice, CustomerStatus customerStatus, int timeOfHavingAccountInYears)
         {
             decimal priceAfterDiscount = 0;
-            decimal discountForLoyaltyInPercentage = (timeOfHavingAccountInYears > max_discount_for_loyalty) ? (decimal)max_discount_for_loyalty / 100 : (decimal)timeOfHavingAccountInYears / 100;
+            decimal discountForLoyaltyInPercentage = (timeOfHavingAccountInYears > max_discount_for_loyalty) ? 
+                    (decimal)max_discount_for_loyalty / 100 : (decimal)timeOfHavingAccountInYears / 100;
             switch (customerStatus)
             {
                 case CustomerStatus.NotRegistered:
-                    priceAfterDiscount = price;
+                    priceAfterDiscount = orderedProductPrice;
                     break;
                 case CustomerStatus.SimpleCustomer:
-                    priceAfterDiscount = calculateDiscountedPrice(price, discountForLoyaltyInPercentage, simple_customers_discount);
+                    priceAfterDiscount = calculateDiscountedPrice(orderedProductPrice, discountForLoyaltyInPercentage, simple_customers_discount);
                     break;
                 case CustomerStatus.ValuableCustomer:
-                    priceAfterDiscount = calculateDiscountedPrice(price, discountForLoyaltyInPercentage, valuable_customers_discount);
+                    priceAfterDiscount = calculateDiscountedPrice(orderedProductPrice, discountForLoyaltyInPercentage, valuable_customers_discount);
                     break;
                 case CustomerStatus.MostValuableCustomer:
-                    priceAfterDiscount = calculateDiscountedPrice(price, discountForLoyaltyInPercentage, most_valuable_customers_discount);
+                    priceAfterDiscount = calculateDiscountedPrice(orderedProductPrice, discountForLoyaltyInPercentage, most_valuable_customers_discount);
                     break;
                 default:
                     break;
