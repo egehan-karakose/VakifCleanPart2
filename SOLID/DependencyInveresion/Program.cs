@@ -16,6 +16,7 @@ namespace DependencyInveresion
             ReportGenerator reportGenerator = new ReportGenerator(mailSender);
             ReportGenerator wsReport = new ReportGenerator(new WhatsappSender());
 
+            
             reportGenerator.Send();
             wsReport.Send();
         }
