@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "RefactoringToGoodCode/1.0.0": {
+        "dependencies": {
+          "BrownField": "1.0.0"
+        },
+        "runtime": {
+          "RefactoringToGoodCode.dll": {}
+        }
+      },
+      "BrownField/1.0.0": {
+        "runtime": {
+          "BrownField.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RefactoringToGoodCode/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BrownField/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,6 @@
+C:\Users\turka\source\repos\Kurumsal\Vakıfbank\Clean Code Part II\RefactoringToGoodCode\BrownField\bin\Debug\BrownField.dll
+C:\Users\turka\source\repos\Kurumsal\Vakıfbank\Clean Code Part II\RefactoringToGoodCode\BrownField\bin\Debug\BrownField.pdb
+C:\Users\turka\source\repos\Kurumsal\Vakıfbank\Clean Code Part II\RefactoringToGoodCode\BrownField\obj\Debug\BrownField.csproj.AssemblyReference.cache
+C:\Users\turka\source\repos\Kurumsal\Vakıfbank\Clean Code Part II\RefactoringToGoodCode\BrownField\obj\Debug\BrownField.csproj.CoreCompileInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Vakıfbank\Clean Code Part II\RefactoringToGoodCode\BrownField\obj\Debug\BrownField.dll
+C:\Users\turka\source\repos\Kurumsal\Vakıfbank\Clean Code Part II\RefactoringToGoodCode\BrownField\obj\Debug\BrownField.pdb
