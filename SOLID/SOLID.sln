@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "usingInterface", "usingInte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegregation", "InterfaceSegregation\InterfaceSegregation.csproj", "{01272FBF-9F15-4731-8C7E-0E10AAFE2660}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInveresion", "DependencyInveresion\DependencyInveresion.csproj", "{B87003D9-F75F-4183-A652-1738C02C25F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{01272FBF-9F15-4731-8C7E-0E10AAFE2660}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01272FBF-9F15-4731-8C7E-0E10AAFE2660}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01272FBF-9F15-4731-8C7E-0E10AAFE2660}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B87003D9-F75F-4183-A652-1738C02C25F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B87003D9-F75F-4183-A652-1738C02C25F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B87003D9-F75F-4183-A652-1738C02C25F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B87003D9-F75F-4183-A652-1738C02C25F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
